@@ -1,0 +1,27 @@
+
+---
+layout: single
+title: "vs code 세팅하기"
+toc: true
+---
+# vs code 세팅하기
+
+## extensions
+
+### material theme
+material theme : 배경 설정 (ctrl+shift+p 해서 color theme 입력으로 변경가능)
+
+
+material icon theme : 무슨 언어인지 아이콘띄워줌!
+### prettier - code formatter 
+코드를 작성하면 이쁘게 정렬해줌 
+
+초기 설정 : ctrl+shift+p 해서 setting.json 
+
+```
+"editor.formatOnSave": true,  
+"editor.showUnused": true,  
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+``` 
+
+
